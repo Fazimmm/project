@@ -1,183 +1,281 @@
-# project
-adidas us sales project
-# Adidas US Sales Analysis 
+
+# Adidas US Sales Analysis 📊
+
 
 ##  Project Overview
 
-This project analyzes **Adidas US sales data** to identify sales trends, product performance, regional performance, and key business insights.
+This project presents an **Adidas US Sales Analysis** using Microsoft Excel.
 
-The analysis was performed using **Microsoft Excel**, with tools such as **PivotTables, charts, calculated fields, filters, and dashboards** to transform raw sales data into meaningful business insights.
+The objective of this project is to analyze Adidas sales data from **2020–2021** and transform raw sales data into meaningful business insights through data cleaning, analysis, PivotTables, charts, KPIs, and an interactive dashboard.
 
-The goal of this project is to demonstrate practical **data cleaning, data analysis, visualization, and business intelligence skills**.
-
----
-
-##  Objectives
-
-* Analyze overall Adidas sales performance.
-* Identify top-performing products.
-* Compare sales performance across different regions.
-* Analyze sales by retailers and sales methods.
-* Identify trends in sales and operating profit.
-* Create interactive dashboards for easier data interpretation.
-* Generate actionable business insights from the dataset.
+The analysis focuses on understanding **sales performance, product performance, regional contribution, sales methods, operating profit, units sold, and monthly sales trends**.
 
 ---
 
-##  Tools & Technologies
+##  Dashboard Preview
 
-* **Microsoft Excel**
-* PivotTables
-* Excel Charts
-* Data Cleaning
-* Data Analysis
-* Calculated Columns
-* Dashboard Design
-* Data Visualization
+![Adidas US Sales Dashboard](./Screenshots/dashboard.png)
+
+### Dashboard Highlights
+
+The dashboard provides an interactive overview of Adidas' US sales performance, including:
+
+-  Total Sales
+-  Operating Profit
+-  Total Units Sold
+-  Sales by Product
+-  Regional Sales Performance
+-  Sales Method Analysis
+-  Monthly Sales Trends
+-  Key Business Insights
+
+---
+
+##  Project Objectives
+
+The main objectives of this project are:
+
+- Analyze overall Adidas sales performance.
+- Identify high-performing products.
+- Compare sales performance across regions.
+- Analyze sales through different sales methods.
+- Examine monthly sales trends.
+- Analyze operating profit and units sold.
+- Identify important business patterns from the dataset.
+- Build an interactive Excel dashboard.
+- Present data-driven insights in a simple and understandable format.
 
 ---
 
 ##  Dataset
 
-The dataset contains Adidas sales information from the United States, including fields related to:
+The dataset contains Adidas US sales information for the period **2020–2021**.
 
-* Retailer
-* Region
-* State
-* City
-* Product
-* Price per Unit
-* Units Sold
-* Total Sales
-* Operating Profit
-* Operating Margin
-* Sales Method
-* Invoice Date
+### Dataset Source
+
+The dataset/reference used for this project is available on Kaggle:
+
+ [Adidas US Sales Analysis 2020–2021 – Kaggle](https://www.kaggle.com/code/oladigbolutaofeek/adidas-us-sales-analysis-2020-2021)
+
+### Dataset Fields
+
+The dataset includes information such as:
+
+| Field | Description |
+|---|---|
+| Retailer | Retailer selling Adidas products |
+| Region | Geographic sales region |
+| State | US state |
+| City | City of sale |
+| Product | Adidas product category |
+| Price per Unit | Price of each unit |
+| Units Sold | Number of units sold |
+| Total Sales | Total revenue generated |
+| Operating Profit | Profit generated |
+| Operating Margin | Operating profit margin |
+| Sales Method | In-store, Online, or Outlet |
+| Invoice Date | Date of transaction |
 
 ---
 
-##  Analysis & Dashboard
+##  Key Performance Indicators
 
-The project includes multiple dashboards designed to provide different perspectives of the sales data.
+The dashboard tracks the following major KPIs:
 
-### Dashboard 1 — Overall Sales Performance
+| KPI | Value |
+|---|---:|
+| **Total Sales** | 899,902,125 |
+| **Operating Profit** | 332,134,761.40 |
+| **Total Units Sold** | 2,478,861 |
 
-Focuses on the overall business performance, including:
+These KPIs provide a quick overview of the overall business performance represented in the dataset.
 
-* Total Sales
-* Total Units Sold
-* Operating Profit
-* Operating Margin
-* Sales trends
-* Product performance
-* Regional performance
+---
 
-### Dashboard 2 — Product & Retailer Analysis
+##  Analysis Performed
 
-Analyzes:
+### 1. Overall Sales Analysis
 
-* Best-performing products
-* Retailer performance
-* Sales contribution
-* Units sold by product
-* Operating profit by retailer
+The project examines total sales and operating profit to understand the overall financial performance of the business.
 
-### Dashboard 3 — Regional & Sales Method Analysis
+### 2. Product Analysis
 
-Provides insights into:
+Products are compared based on:
 
-* Regional sales performance
-* State-level performance
-* Sales methods
-* Sales trends
-* Operating profit across regions
+- Total Sales
+- Units Sold
+- Price per Unit
+- Operating Profit
+
+This helps identify products that contribute significantly to overall revenue.
+
+### 3. Regional Analysis
+
+Sales performance is analyzed across different regions, including:
+
+- Midwest
+- Northeast
+- South
+- Southeast
+- West
+
+This helps identify differences in regional sales contribution.
+
+### 4. Sales Method Analysis
+
+Sales are analyzed across different channels:
+
+- In-store
+- Online
+- Outlet
+
+This provides an understanding of how different sales channels contribute to overall revenue.
+
+### 5. Monthly Sales Trend
+
+Monthly sales are analyzed to identify:
+
+- High-sales months
+- Low-sales months
+- Seasonal patterns
+- Changes in sales activity over time
+
+### 6. Operating Profit Analysis
+
+Operating profit is analyzed across products and business segments to understand profitability.
 
 ---
 
 ##  Key Insights
 
-The analysis helps identify:
+Based on the dashboard analysis:
 
-* Products contributing significantly to overall sales.
-* Regions generating higher sales and profits.
-* Differences in performance between retailers.
-* The relationship between units sold and total sales.
-* Sales trends over time.
-* Performance differences between sales methods.
+- **West region** recorded the highest sales among the regions, contributing approximately **$246.9 million** in total sales.
+- The **West region** generated the highest regional sales contribution in the dataset.
+- **In-store sales** generated the highest revenue among the three sales methods.
+- **Men's Street Footwear** recorded the highest sales among the products shown in the dashboard.
+- Sales activity increased significantly during **2021 compared with 2020**, indicating stronger sales performance during the later period of the dataset.
+- The dashboard shows noticeable variation in monthly sales, with stronger performance during several months in the middle and later part of the year.
 
-> **Note:** Specific insights and figures are based on the analyzed dataset and are presented within the Excel dashboards.
+> These insights are based on the analyzed dataset and the Excel dashboard created for this project.
+
+---
+
+##  Tools & Techniques Used
+
+### Microsoft Excel
+
+The project was developed primarily using Microsoft Excel.
+
+### Excel Features Used
+
+- Data Cleaning
+- Data Formatting
+- PivotTables
+- PivotCharts
+- Calculated Columns
+- Filters
+- Slicers
+- KPI Cards
+- Charts
+- Dashboard Design
+- Data Visualization
 
 ---
 
 ##  Project Workflow
 
 ```text
-Raw Dataset
-     ↓
-Data Cleaning
-     ↓
-Data Preparation
-     ↓
-PivotTables & Calculations
-     ↓
-Data Analysis
-     ↓
-Charts & Visualizations
-     ↓
-Interactive Dashboards
-     ↓
-Business Insights
-```
+                    Raw Dataset
+                         │
+                         ▼
+                  Data Cleaning
+                         │
+                         ▼
+                Data Preparation
+                         │
+                         ▼
+              PivotTables & Analysis
+                         │
+                         ▼
+                 KPI Calculation
+                         │
+                         ▼
+             Charts & Visualizations
+                         │
+                         ▼
+              Interactive Dashboard
+                         │
+                         ▼
+                 Business Insights
+````
 
 ---
 
-##  Project Structure
+##  Dashboard Components
 
-```text
-Adidas-US-Sales-Analysis/
-│
-├── Dataset/
-│   └── Adidas_US_Sales_Dataset.xlsx
-│
-├── Dashboard/
-│   └── Adidas_US_Sales_Dashboard.xlsx
-│
-├── Screenshots/
-│   ├── dashboard-1.png
-│   ├── dashboard-2.png
-│   └── dashboard-3.png
-│
-└── README.md
+The dashboard contains multiple analytical components:
+
+### KPI Cards
+
+* Total Sales
+* Operating Profit
+* Total Units Sold
+
+### Visualizations
+
+* Monthly Sales Trend
+* Sales by Product
+* Sales Method Distribution
+
+### Interactive Filters
+
+* Year
+* Region
+* Product
+* Sales Method
+
+### Supporting Analysis
+
+* Product-level sales table
+* Operating profit analysis
+* Regional comparison
+* Key business insights
+
+---
+
+
 ```
 
 ---
 
 ##  Skills Demonstrated
 
-This project demonstrates practical experience in:
+This project demonstrates practical skills in:
 
-* Data Cleaning
-* Data Analysis
-* Excel
-* PivotTables
-* Data Visualization
-* Dashboard Development
-* Business Analysis
-* KPI Analysis
-* Analytical Thinking
-* Insight Generation
+*  Data Analysis
+*  Data Cleaning
+*  Data Visualization
+*  PivotTables
+*  PivotCharts
+*  KPI Development
+*  Dashboard Design
+*  Business Insight Generation
+*  Excel Reporting
+*  Analytical Thinking
 
 ---
 
 ##  Future Improvements
 
-Possible improvements to this project include:
+The project can be further developed by:
 
-* Recreating the analysis using **Power BI**.
-* Building an interactive dashboard with advanced filters.
-* Performing deeper statistical analysis.
-* Automating data cleaning and transformation using **Power Query**.
-* Creating advanced analytical measures using **Power Pivot and DAX**.
+* Recreating the dashboard in **Power BI**.
+* Using **Power Query** to automate data cleaning and transformation.
+* Using **Power Pivot and DAX** for advanced calculations.
+* Adding more detailed regional and retailer analysis.
+* Developing predictive sales analysis.
+* Adding more advanced interactive visualizations.
 
 ---
 
@@ -185,12 +283,30 @@ Possible improvements to this project include:
 
 I am a **BBA graduate currently developing my skills in Data Analytics**, with a focus on Excel, data visualization, and business analysis.
 
-I enjoy working with data to discover patterns, generate insights, and present information in a simple and meaningful way.
+I am interested in using data to identify patterns, generate meaningful insights, and support better business decision-making.
+
+This project is part of my journey toward building practical **Data Analytics and Business Intelligence** skills.
 
 ---
 
-##  If You Found This Project Useful
+##  Project Resources
 
-Feel free to explore the project, review the dashboards, and check out my other data analytics projects.
+ **Dataset / Reference:**
+[Adidas US Sales Analysis 2020–2021 – Kaggle](https://www.kaggle.com/code/oladigbolutaofeek/adidas-us-sales-analysis-2020-2021)
 
-**Thanks for visiting! 🚀**
+ **Excel Analysis:**
+Available in this GitHub repository.
+
+---
+
+##  Thank You
+
+Thank you for visiting this project!
+
+Feel free to explore the analysis, dashboard, and other projects in my GitHub portfolio.
+
+**If you found this project interesting, consider giving the repository a .**
+
+````
+
+
